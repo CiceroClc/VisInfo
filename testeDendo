@@ -1,35 +1,53 @@
-id,value,color
-UNC-CH,
-UNC-CH.Gender,
-UNC-CH.Gender.teste.Female,16827,#808080
-UNC-CH.Gender.teste.Female,16827,#808080
-UNC-CH.Gender.Male,12642,#80A0A0
-UNC-CH.Age,
-UNC-CH.Age.Under 25,20873,#808080
-UNC-CH.Age.25 and Over,8595,#80A0A0
-UNC-CH.Attendance,
-UNC-CH.Attendance.Full-Time,25084,#808080
-UNC-CH.Attendance.Part-Time,4585,#80A0A0
-UNC-CH.Residency,
-UNC-CH.Residency.In-State,21232,#808080
-UNC-CH.Residency.Out-of-State,8237,#80A0A0
-UNC-CH.Enrollment,
-UNC-CH.Enrollment.Undergraduate,18523,#808080
-UNC-CH.Enrollment.Graduate,8427,#80A0A0
-UNC-CH.Enrollment.Professional,2519,#E54F24
-UNC-CH.Citizenship,
-UNC-CH.Citizenship.US Citizen,27114,#808080
-UNC-CH.Citizenship.Resident Alien,763,#80A0A0
-UNC-CH.Citizenship.Nonresident Alien,1592,#E54F24
-UNC-CH.Proximity,
-UNC-CH.Proximity.On-Campus,27100,#808080
-UNC-CH.Proximity.Off-Campus,2369,#80A0A0
-UNC-CH.Race,
-UNC-CH.Race.American Indian or Alaskan Native,129,#808080
-UNC-CH.Race.Asian,3759,#80A0A0
-UNC-CH.Race.Black or African-American,2342,#E54F24
-UNC-CH.Race.Hispanic,2145,#FF9900
-UNC-CH.Race.Native Hawaiian or Pacific Islander,43,#563B7E
-UNC-CH.Race.Race/Ethnicity Unknown,1184,#D6BA33
-UNC-CH.Race.Two or More Races,1610,#1169AE
-UNC-CH.Race.White,18257,#F6854D
+{
+"name": "UNC-CH Quick Facts Data",
+ "children": [
+	{
+  "name": "Gender",
+	 "children":[
+   {
+   "name": "Female", "size": 16827},
+		{"name":"Male", "size":12642}]},
+
+    {"name":"Age",
+     "children":
+        [{"name":"Under 25", "size":20873},
+        {"name":"25 and Over", "size":8595}]},
+		
+    {"name":"Attendance", 
+      "children":
+        [{"name":"Full-Time", "size":25084},
+		{"name":"Part-Time", "size":4385}]},
+		
+    {"name":"Residency", 
+      "children":
+        [{"name":"In-State", "size":21232},
+		{"name":"Out-of-State", "size":8237}]},
+
+	{"name":"Enrollment", 
+      "children":
+        [{"name":"Undergraduate", "size":18523},
+		{"name":"Graduate", "size":8427},
+		{"name":"Professional", "size":2519}]},
+		
+    {"name":"Citizenship", 
+      "children":
+        [{"name":"US Citizen",  "size":27114},
+		{"name":"Resident Alien",  "size":763},
+		{"name":"Nonresident Alien",  "size":1592}]},
+		
+    {"name":"Proximity", 
+      "children":
+        [{"name":"On-Campus", "size":27100},
+		{"name":"Off-Campus",  "size":2369}]},
+    
+	{"name":"Race", 
+      "children": 
+        [{"name":"American Indian or Alaskan Native", "size":129}]},
+		{"name":"Asian",  "size":27114},
+		{"name":"Black or African-American",  "size":3759},
+		{"name":"Hispanic",  "size":2342},
+		{"name":"Native Hawaiian or Pacific Islander",  "size":2145},
+		{"name":"Race/Ethnicity Unknown",  "size":43},
+		{"name":"Two or More Races",  "size":1184},
+		{"name":"White",  "size":18257}]
+}
