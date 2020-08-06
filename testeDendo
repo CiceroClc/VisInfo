@@ -1,8 +1,8 @@
 id,value,color
 UNC-CH,
 UNC-CH.Gender,
-UNC-CH.Gender.Female.teste1,16827,#808080
-UNC-CH.Gender.Female.teste2,16827,#808080
+UNC-CH.Gender.Female,16827,#808080
+UNC-CH.Gender.Female,16827,#808080
 UNC-CH.Gender.Male,12642,#80A0A0
 UNC-CH.Age,
 UNC-CH.Age.Under 25,20873,#808080
